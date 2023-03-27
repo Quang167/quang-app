@@ -1,0 +1,37 @@
+/* a.navbar-brand {
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+a.nav-link {
+    font-size: 15px;
+} */
+
+.container img {
+    width: 110px;
+}
+
+.container {
+    display: flex;
+    padding: 15px;
+    background-color: #032541;
+}
+
+.dropdown-content {
+    outline-style: none;
+    padding-left: 20px;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+}
+
+header {
+    background-color: #032541;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}

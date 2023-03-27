@@ -1,0 +1,147 @@
+.rounded {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: linear .1s;
+}
+
+footer nav a.rounded {
+    position: relative;
+    top: 140px;
+    border-color: #fff;
+    background-color: #fff;
+    color: rgba(var(--tmdbLightBlue), 1);
+    font-size: 1.3em;
+    font-weight: bold;
+    display: inline-block;
+    word-wrap: break-word;
+    white-space: normal;
+    text-transform: uppercase;
+}
+
+footer {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    background-image: radial-gradient(at 30% top, #031d33 0%, rgba(var(--tmdbDarkBlue), 1) 70%);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    background-color: #032541;
+    display: flex;
+}
+
+footer nav {
+    font-size: .9em;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+body * {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+footer nav div.join {
+    text-align: right;
+    position: relative;
+    top: -36px;
+    right: 0;
+}
+
+footer nav div {
+    margin-right: 40px;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+footer nav div.join img {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer nav h3 {
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    color: #fff;
+    white-space: nowrap;
+}
+
+h3 {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    display: block;
+}
+
+footer nav ul li {
+    line-height: 1.6em;
+    max-width: 260px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #fff;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+footer nav .join a {
+    color: #01B4E4;
+}
+
+
+/* div {
+    margin-left: -50px;
+} */
+
+.join {
+    margin-right: 40px;
+}
+
+ul {
+    margin-top: -11px;
+}
+
+h3 {
+    margin-left: 38px;
+}
