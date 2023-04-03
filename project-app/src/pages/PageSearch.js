@@ -1,8 +1,8 @@
 import React from 'react'
-import "../layouts/search.css";
-import Form from 'react-bootstrap/Form';
+import "../pages/css/search.css";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
+
 const PageSearch = () => {
   return (   
       <div className='container search-wrapper'>   

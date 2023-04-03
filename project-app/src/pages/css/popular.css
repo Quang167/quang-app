@@ -1,0 +1,196 @@
+.popular-header {
+    background-color: #fff;
+    display: block;
+}
+
+.popular-head {
+    padding-bottom: 14px;
+    padding-top: 14px;
+    display: flex;
+    padding-left: 8px;
+}
+
+.popular {
+    display: flex;
+}
+
+.popular h2 {
+    font-size: 30px;
+}
+
+.popular h3 {
+    font-size: 15px;
+}
+
+.popular {
+    padding-right: 20px;
+}
+
+.popular-right {
+    display: flex;
+    padding-left: 0px;
+    border: 1px solid #333;
+    border-radius: 50px;
+    height: 35px;
+}
+
+.popular-right .content-ontv {
+    background-color: #032541;
+    color: #6BA493;
+    width: 70px;
+    text-align: center;
+    height: 34px;
+    border-radius: 50px;
+}
+
+.popular-right p {
+    padding-top: 3px;
+    font-size: 17px;
+}
+
+.popular-right .content-intheaters {
+    padding-left: 10px;
+    /* border: 1px solid #333; */
+    width: 110px;
+    text-align: center;
+    height: 22px;
+    border-radius: 50px;
+}
+
+
+/* percent  */
+
+.flex-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.single-chart {
+    width: 33%;
+    justify-content: space-around;
+}
+
+.circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 250px;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+}
+
+.circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+    0% {
+        stroke-dasharray: 0 100;
+    }
+}
+
+.circular-chart.orange .circle {
+    stroke: #ff9f00;
+}
+
+.circular-chart.green .circle {
+    stroke: #4CC790;
+}
+
+.circular-chart.blue .circle {
+    stroke: #3c9ee5;
+}
+
+.percentage {
+    fill: #333;
+    font-family: sans-serif;
+    font-size: 1em;
+    text-anchor: middle;
+    font-weight: bold;
+}
+
+
+/*  */
+
+.popular-item {
+    display: flex;
+    margin-top: 20px;
+}
+
+.popular_Item {
+    padding-right: 10px;
+}
+
+.popular-header img {
+    width: 172px;
+}
+
+.popular_Item h2 {
+    font-size: 23px;
+    padding-top: 31px;
+}
+
+.popular_Item p {
+    font-size: 17px;
+    color: #A4A4A4;
+    font-weight: bold;
+}
+
+.flex-wrapper {
+    position: relative;
+}
+
+.single-chart {
+    position: absolute;
+    top: -24px;
+}
+
+button.search {
+    font-size: 16px;
+}
+
+
+/* width */
+
+.container.popular-header {
+    background-color: #fff;
+}
+
+.popular-info {
+    display: flex;
+}
+
+.container.popular-header {
+    display: block;
+}
+
+b {
+    font-size: 15px;
+}
+
+li.popular-date {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    padding-left: 13px;
+}
+
+li.popular-title {
+    padding-top: 30px;
+    padding-left: 13px;
+}
+
+ul.popular-width {
+    padding-inline-start: 8px;
+}
+
+.overflow {
+    overflow-y: hidden;
+    overflow-x: auto;
+}

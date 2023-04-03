@@ -37,7 +37,7 @@ footer {
 }
 
 footer nav {
-    font-size: .9em;
+    font-size: 15px;
     display: flex;
     justify-content: space-between;
     padding-top: 80px;
@@ -144,4 +144,8 @@ ul {
 
 h3 {
     margin-left: 38px;
+}
+
+.footer-info a {
+    color: #fff;
 }

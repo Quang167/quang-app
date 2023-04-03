@@ -1,0 +1,128 @@
+    .trailer-header {
+        color: #fff;
+        background-color: #2F4D5D;
+        display: block;
+    }
+    
+    .trailer-head {
+        padding-bottom: 14px;
+        padding-top: 14px;
+        display: flex;
+        padding-left: 8px;
+    }
+    
+    .trailer {
+        display: flex;
+    }
+    
+    .trailer h2 {
+        font-size: 30px;
+    }
+    
+    .trailer h3 {
+        font-size: 15px;
+    }
+    
+    .trailer {
+        padding-right: 20px;
+    }
+    
+    .trailer-right {
+        display: flex;
+        padding-left: 0px;
+        border: 1px solid #A9F8CA;
+        border-radius: 50px;
+        height: 35px;
+    }
+    
+    .content-intheaters {
+        padding-left: 10px;
+        /* border: 1px solid #333; */
+        width: 110px;
+        text-align: center;
+        height: 22px;
+        border-radius: 50px;
+    }
+    
+    .content-ontv {
+        background-color: #A9F8CA;
+        color: #333;
+        width: 70px;
+        text-align: center;
+        height: 34px;
+        border-radius: 50px;
+    }
+    
+    .trailer-right p {
+        padding-top: 3px;
+        font-size: 17px;
+    }
+    
+    .trailer-item {
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .trailer_Item {
+        padding-right: 10px;
+    }
+    
+    .trailer-header img {
+        width: 310px;
+        border-radius: 13px;
+    }
+    
+    .trailer_Item h2 {
+        text-align: center;
+        font-size: 23px;
+        padding-top: 31px;
+    }
+    
+    .trailer_Item p {
+        text-align: center;
+        font-size: 15px;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    .container.trailer-header {
+        background-color: #2F4D5D;
+    }
+    
+    .trailer-info {
+        display: flex;
+    }
+    
+    .container.trailer-header {
+        display: block;
+    }
+    
+    b {
+        font-size: 15px;
+    }
+    
+    li.trailer-date {
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.6);
+        padding-left: 13px;
+    }
+    
+    li.trailer-title {
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 13px;
+    }
+    
+    ul.trailer-width {
+        padding-inline-start: 8px;
+    }
+    
+    .overflow {
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+    
+    .trailer-width .trailer-date {
+        color: #fff;
+        text-align: center;
+    }

@@ -1,0 +1,42 @@
+.container.jointoday {
+    margin-right: 95px;
+    background-color: blueviolet;
+    display: block;
+}
+
+.jointoday h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: #fff;
+    padding: 20px 0 0 30px;
+}
+
+.jointoday-content {
+    display: flex;
+}
+
+.jointoday-content p {
+    color: #fff;
+    font-size: 12pt;
+    padding: 0 0 0 30px;
+}
+
+.jointoday-button {
+    margin: 20px 0 0 30px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 95px;
+    height: 47px;
+    background-color: #805BE7;
+    font-size: 18px;
+}
+
+.jointoday-content li {
+    list-style-type: disc;
+    color: #fff;
+    font-size: 14px;
+}
+
+.jointoday-content p {
+    font-size: 18px;
+}

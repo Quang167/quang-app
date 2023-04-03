@@ -1,15 +1,18 @@
+
 import React, { Fragment } from 'react';
 import {BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import './App.css';
+import AiringTodayPage from './pages/AiringTodayPage';
 import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
-import Layout from './layouts/Layout';
 import NoPage from './pages/NoPage';
-import ParameterPage from './pages/ParameterPage';
-import QueryPage from './pages/QueryPage';
-import Popular from './pages/Popular';
+import NowPlayingPage from './pages/NowPlayingPage';
+import OnTvPage from './pages/OnTvPage';
+import PopularPage from './pages/PopularPage';
+import TopRatedPage from './pages/TopRatedPage';
+import UpComingPage from './pages/UpComingPage';
+import Layout from './layouts/Layout';
+
 
 function App() {
 
@@ -19,11 +22,12 @@ function App() {
           <Routes>
               <Route path="/" element={<Layout />}>
                   <Route  index element={<HomePage />} />
-                  <Route path='/about' element={<AboutPage />} />
-                  <Route path='/contact'  element={<ContactPage />} />
-                  <Route path='/popular'  element={<Popular />} />
-                  <Route path='/parameter/:id/:name/:email' element={<ParameterPage />} />
-                  <Route path='/search' element={<QueryPage />} />
+                  <Route path='/popular' element={<PopularPage />} />
+                  <Route path='/nowplaying'  element={<NowPlayingPage />} />
+                  <Route path='/upcoming'  element={<UpComingPage />} />
+                  <Route path='/toprated' element={<TopRatedPage />} />
+                  <Route path='/airingtoday' element={<AiringTodayPage />} />
+                  <Route path='/ontv' element={<OnTvPage />} />
                   <Route path="*" element={<NoPage />} />
               </Route>
           </Routes>

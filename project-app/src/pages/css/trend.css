@@ -1,0 +1,197 @@
+.trending-header {
+    background-color: #fff;
+    display: block;
+}
+
+.trending-head {
+    padding-bottom: 14px;
+    padding-top: 14px;
+    display: flex;
+    padding-left: 8px;
+}
+
+.trending {
+    display: flex;
+}
+
+.trending h2 {
+    font-size: 30px;
+}
+
+.trending h3 {
+    font-size: 15px;
+}
+
+.trending {
+    padding-right: 20px;
+}
+
+.trending-right {
+    display: flex;
+    padding-left: 0px;
+    border: 1px solid #333;
+    border-radius: 50px;
+    height: 35px;
+}
+
+.content-today {
+    background-color: #032541;
+    color: #6BA493;
+    width: 70px;
+    text-align: center;
+    height: 34px;
+    border-radius: 50px;
+}
+
+.trending-right p {
+    padding-top: 3px;
+    font-size: 17px;
+}
+
+.content-thisweek {
+    padding-left: 10px;
+    /* border: 1px solid #333; */
+    width: 110px;
+    text-align: center;
+    height: 22px;
+    border-radius: 50px;
+}
+
+
+/* percent  */
+
+.flex-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.single-chart {
+    width: 33%;
+    justify-content: space-around;
+}
+
+.circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 250px;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+}
+
+.circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+    0% {
+        stroke-dasharray: 0 100;
+    }
+}
+
+.circular-chart.orange .circle {
+    stroke: #ff9f00;
+}
+
+.circular-chart.green .circle {
+    stroke: #4CC790;
+}
+
+.circular-chart.blue .circle {
+    stroke: #3c9ee5;
+}
+
+.percentage {
+    fill: #333;
+    font-family: sans-serif;
+    font-size: 1em;
+    text-anchor: middle;
+    font-weight: bold;
+}
+
+
+/*  */
+
+.trend-item {
+    display: flex;
+    margin-top: 20px;
+}
+
+.trend_Item {
+    padding-right: 10px;
+}
+
+.trend_Item img {
+    border-radius: 17px;
+}
+
+.trending-header img {
+    width: 172px;
+}
+
+.trend_Item h2 {
+    font-size: 23px;
+    padding-top: 31px;
+}
+
+.trend_Item p {
+    font-size: 17px;
+    color: #A4A4A4;
+    font-weight: bold;
+}
+
+.flex-wrapper {
+    position: relative;
+}
+
+.single-chart {
+    position: absolute;
+    top: -24px;
+}
+
+button.search {
+    font-size: 16px;
+}
+
+.container.trending-header {
+    background-color: #fff;
+}
+
+.trending-info {
+    display: flex;
+}
+
+.container.trending-header {
+    display: block;
+}
+
+b {
+    font-size: 15px;
+}
+
+li.trend-date {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    padding-left: 13px;
+}
+
+li.trend-title {
+    padding-top: 30px;
+    padding-left: 13px;
+}
+
+ul.trending-width {
+    padding-inline-start: 8px;
+}
+
+.overflow {
+    overflow-y: hidden;
+    overflow-x: auto;
+}

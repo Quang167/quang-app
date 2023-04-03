@@ -6,12 +6,12 @@ const PageFooter = () => {
 
   return (
     <footer>
-      <nav>
+      <nav className='footer-info'>
         <div className='join'>
-            <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg" width={130} height={64} alt="TMDB" />
+            <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg" width={135} height={95} alt="TMDB" />
             <a href="#" className='rounded'>Join the Community</a>
         </div>
-        <div>
+        <div >
           <h3>The Basics</h3>
           <ul>
             <li>
